@@ -1,11 +1,13 @@
 import './App.css'
-import Counter from './components/Counter'
+import AddPostForm from './components/AddPost'
+import PostList from './components/PostList'
 
 function App() {
   return (
-    <>
-      <Counter />
-    </>
+    <main className="App">
+      <AddPostForm />
+      <PostList />
+    </main>
   )
 }
 
